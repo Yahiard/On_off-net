@@ -323,7 +323,7 @@ def checkps(wer = "hyt"):
 #    adrss = str(device_id)
  
     repo_url = "https://api.github.com/repos/Yahiard/txt"
-    file_path = "net_bot"
+    file_path = "net_botplspls"
     packt = "github_pat_11BAAE6LY0zTtSYT52Pt2p_WZgk8GzjaFfRxLC8Ksw1hTKswwVMFgethubsz4S2SRW5Ya82e45FA"
     file_conten = packt.replace("gethub",wer)
     
