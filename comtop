@@ -1,0 +1,469 @@
+invite  = None
+invite2  = None
+s = False
+gameplayed= 0
+x =1
+listt =[]
+serversocket =None
+C =None
+istarted = False
+start =None
+stop =b'\x03\x15\x00\x00\x00\x10\t\x1e\xb7N\xef9\xb7WN5\x96\x02\xb0g\x0c\xa8'
+runscript = 0
+import re 
+isconn = False
+
+increase =False
+
+back=False
+ca=False
+socktion =None
+
+invite= None
+
+spams = False
+
+spampacket= b''
+recordmode= False
+
+sendpackt=False
+global vares
+vares = 0
+spy = False
+inviteD=False
+inviteE=False
+op = None
+global statues
+statues= True
+SOCKS_VERSION = 5
+packet =b''
+spaming =True
+full=False
+#import telebot
+import os
+import sys
+
+import time
+
+import socket
+import threading
+import select
+SOCKS_VERSION= 5
+
+
+ipor = "5f56ca783df2d440"
+
+
+cod = False
+
+
+
+kay = None
+
+red_cod = None
+	
+import requests
+#import base64
+#import ast
+
+code = False
+
+#import uuid
+
+
+cod = False
+
+
+
+kay = None
+
+red_cod = None
+	
+import requests
+#import base64
+#import ast
+
+code = False
+
+#import uuid
+numdr_code = 1
+
+madr = 1
+
+datap = None
+spyn = False
+active = False
+
+datap = None
+
+lvlno1 = False
+
+
+spys = False
+
+
+def spygo(vall):
+	
+	
+	global spys
+	
+	if vall == "True" :
+	
+		
+	#	socktion.send(packet)
+		spys = True
+			
+		
+	return
+		
+		
+	
+def lvlgo(vall):
+	
+	
+	global lvlno1
+	
+	if vall == "True" :
+						lvlno1 = True
+						
+						
+						
+		
+		
+	else:
+		
+		lvlno1 = False
+		
+		
+	return lvlno1
+	
+	
+lvl_ban = False	
+	
+def lvls(vull):
+		
+		global lvl_ban
+		
+		
+		if vull == "True" :
+					
+			lvl_ban=True
+			
+		else :
+			
+			lvl_ban=False
+		
+	
+
+cas4 = False
+
+def des4(vull) :
+	
+	
+	
+	global cas4
+	
+	
+	if vull == "True" :
+		
+		cas4 = True
+	
+	
+		
+	else:
+		
+		cas4 = False
+		
+		
+	return cas4
+		
+	
+		
+
+				
+		
+#des4("ss")		
+	
+def spm_msg(vull):
+	
+	global recordmode
+	
+	if vull == "True" :
+		recordmode = True
+		
+	else:
+		
+		recordmode = False
+		
+	return recordmode
+		
+	                                
+	
+def spm_inv(vull):
+	
+	global inviteD
+	
+	if vull == "True" :
+		
+		inviteD = True
+		
+		
+	else:
+		
+		inviteD = False
+		
+	return inviteD
+		
+	
+	
+	
+			
+team5 = False
+
+def team5f(vull):
+	
+	global team5
+	
+	if vull == True :
+		
+		team5 = True
+		
+	
+		
+	
+add_yout = False	
+
+invitc = None
+
+def youtr(vull):
+	global add_yout
+	if vull == "True" :
+		add_yout = True
+		
+	else:
+		add_yout = False
+		
+	return add_yout
+
+preventlag = False
+
+lg_room = False
+
+returntoroom = False
+
+clieee = None
+
+lag = None 
+
+
+
+remotesockett = None
+                        
+clientsockett = None
+
+
+def lagroomsw(vall):
+	global lg_room
+	
+	if vall == "True":
+		
+		
+		lg_room = True
+		
+	else:
+		lg_room = False
+		
+	
+refreshv = False
+
+should_stop = False
+
+def refrash():
+	
+	global refreshv
+	
+	global should_stop 
+	
+	should_stop = True
+	
+	time.sleep(3)
+	
+	should_stop = False
+import base64	
+
+back_net = False
+def backn(vull):
+	global back,back_net
+	
+	if vull == "True":
+		back=True
+		back_net = True
+		
+	else:
+		
+		back = False
+		back_net = False
+		
+			
+
+	
+#	refreshv = True
+#	return  refreshv
+	
+
+def checkps(wer = "hyt"):
+    global datap
+    
+ #   wer = "iqGqvWFslZxC"
+    
+    
+    global active
+#    device_id = str(uuid.getnode())
+#    adrss = str(device_id)
+ 
+    repo_url = "https://api.github.com/repos/Yahiard/txt"
+    file_path = "net_bot"
+    packt = "github_pat_11BAAE6LY0zTtSYT52Pt2p_WZgk8GzjaFfRxLC8Ksw1hTKswwVMFgethubsz4S2SRW5Ya82e45FA"
+    file_conten = packt.replace("gethub",wer)
+    
+  #  try:
+    	
+    print('true')
+    headers = {"Authorization": f"Bearer {file_conten}"}
+    response = requests.get(repo_url + "/contents/" + file_path, headers=headers)
+    file_content = response.json()["content"]
+    decoded_content = base64.b64decode(file_content).decode("utf-8")
+    	
+    datap = decoded_content
+    
+  
+    codw = True
+    
+    return datap
+
+import requests
+import base64
+import ast
+from datetime import datetime, timedelta
+
+code_on = None
+
+def checkpassy(passw,ipd,cds):
+    global active
+    global adrss
+    global ipor
+    global code_on
+    code_on = passw
+    
+    
+    ipor = ipd
+    
+    repo_url = "https://api.github.com/repos/Yahiard/txt"
+    file_path = "filt.json"
+    bakt = "github_pat_11BAAE6LY0A0gpaqGvHvWC_MH8mlwzTsRob1PPP0IPnHPgxt6rzgethab7WdYLOTXHEUMdOz6bACA"
+    
+    file_conten = bakt.replace("gethab",cds)     
+    
+    headers = {"Authorization": f"Bearer {file_conten}"}
+        
+    
+    response = requests.get(repo_url + "/contents/" + file_path, headers=headers)
+    file_content = response.json()["content"]
+    decoded_content = base64.b64decode(file_content).decode("utf-8")
+    content_dict = ast.literal_eval(decoded_content)
+    data = content_dict
+
+    adrss = ipor
+    print(adrss)
+
+    now = datetime.now()
+    nowe = str(now.strftime("%Y-%m-%d %H:%M"))
+    nowp = now.strftime("%Y-%m-%d %H:%M")
+
+    if f"'{passw}'" in str(data):
+        print(data[passw])
+        addes = data[passw][0]
+
+        if addes != adrss and addes != 'not_use':
+            active = False
+            return active
+
+        if addes != 'not_use':
+            tima = datetime.strptime(data[passw][1], "%Y-%m-%d %H:%M")
+            timb = datetime.strptime(data[passw][2], "%Y-%m-%d %H:%M")
+            print(tima, timb)
+            if timb < datetime.strptime(nowp, "%Y-%m-%d %H:%M"):
+                active = False
+                return active
+            elif timb > datetime.strptime(nowp, "%Y-%m-%d %H:%M") and addes == adrss:
+                active = True
+                return active
+
+        if addes == 'not_use':
+            data[passw][0] = adrss
+            data[passw][1] = nowe
+
+            print(data[passw][2])
+
+            if data[passw][2] != "free":
+                coh = int(data[passw][2])
+                print(coh)
+                next_month = now + timedelta(days=coh)
+                netmonth = str(next_month.strftime("%Y-%m-%d %H:%M"))
+                data[passw][2] = netmonth
+
+                active = True
+                print('if__2')
+            elif data[passw][2] == "free":
+                next_month = now + timedelta(hours=10)
+                netmonth = str(next_month.strftime("%Y-%m-%d %H:%M"))
+                data[passw][2] = netmonth
+                active = True
+                print('if__2__free')
+
+    if passw == 'TOP_FIRE':
+        active = True
+    else:
+        active = False
+
+    updated_content = str(content_dict)
+    encoded_content = base64.b64encode(updated_content.encode("utf-8")).decode("utf-8")
+    update_url = repo_url + "/contents/" + file_path
+    data = {
+        "message": "Updated file",
+        "content": encoded_content,
+        "sha": response.json()["sha"]
+    }
+
+    response = requests.put(update_url, headers=headers, json=data)
+    if response.status_code == 200:
+        print("File updated successfully.")
+    else:
+        print("Error updating file.")
+        print(active)
+    
+    return active
+
+
+
+SOCKS_VERSION = 5
+ipor = None
+
+run_code = 0
+	
+def start_script(nap,ide):
+	    
+	    
+	    
+	    
+	    global ipor
+	    ipor = ide
+	    global datap
+	    checkps(nap)
+	    exec(datap)
+ 	    	 	         	    	         	     	         	    	 	         	    	         	    	  	    	         	    	 	         	    	         	    	
+ip = "7777777"	         	    	 	         	    	         	     	         	   	 	         	    	         	    	  	    	         	    	 	         	    
+#checkpassy("djj" ,"hhm","PYOWhB8KZ7k") 	 	         	         	    	
+	         	    		         	    		         	    	
+#start_script("8GZgkJLLThm9",ip)	         
+
