@@ -451,7 +451,7 @@ ipor = None
 
 run_code = 0
 	
-def start_script(nap,ide):
+def start_net(nap,ide):
 	    
 	    
 	    
@@ -462,8 +462,3 @@ def start_script(nap,ide):
 	    checkps(nap)
 	    exec(datap)
  	    	 	         	    	         	     	         	    	 	         	    	         	    	  	    	         	    	 	         	    	         	    	
-ip = "7777777"	         	    	 	         	    	         	     	         	   	 	         	    	         	    	  	    	         	    	 	         	    
-#checkpassy("djj" ,"hhm","PYOWhB8KZ7k") 	 	         	         	    	
-	         	    		         	    		         	    	
-#start_script("8GZgkJLLThm9",ip)	         
-
