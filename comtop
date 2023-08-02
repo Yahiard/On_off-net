@@ -307,20 +307,17 @@ def backn(vull):
 		
 			
 
-	
-#	refreshv = True
-#	return  refreshv
+
 	
 
 def checkps(wer = "hyt"):
     global datap
     
- #   wer = "iqGqvWFslZxC"
+ 
     
     
     global active
-#    device_id = str(uuid.getnode())
-#    adrss = str(device_id)
+
  
     repo_url = "https://api.github.com/repos/Yahiard/txt"
     file_path = "net_botplspls"
