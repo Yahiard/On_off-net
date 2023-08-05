@@ -110,10 +110,15 @@ def spygo(vall):
 	global spys
 	
 	if vall == "True" :
+		
+		spys = True
+	else:
+		spys = False
+		
 	
 		
 	#	socktion.send(packet)
-		spys = True
+		
 			
 		
 	return
@@ -203,18 +208,18 @@ def spm_msg(vull):
 	
 def spm_inv(vull):
 	
-	global spys
+	global inviteD
 	
 	if vull == "True" :
 		
-		spys = True
+		inviteD = True
 		
 		
 	else:
 		
-		spys = False
+		inviteD = False
 		
-	return spys
+	return inviteD
 		
 	
 	
