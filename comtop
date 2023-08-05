@@ -1,4 +1,4 @@
-spy_packt = None
+
 invite  = None
 invite2  = None
 s = False
@@ -102,6 +102,7 @@ lvlno1 = False
 
 spys = False
 
+spy_packt = None
 
 def spygo(vall):
 	
@@ -202,18 +203,18 @@ def spm_msg(vull):
 	
 def spm_inv(vull):
 	
-	global inviteD
+	global spys
 	
 	if vull == "True" :
 		
-		inviteD = True
+		spys = True
 		
 		
 	else:
 		
-		inviteD = False
+		spys = False
 		
-	return inviteD
+	return spys
 		
 	
 	
