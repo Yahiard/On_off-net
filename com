@@ -1,1 +1,1 @@
-https://bit.ly/3OxLEoK
+https://short-jambo.com/NET_bot_free
